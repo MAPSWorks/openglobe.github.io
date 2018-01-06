@@ -2,9 +2,9 @@
 
 A few good examples from Esri's Story Maps:
 
-Twister Dashboard: Exploring Three Decades of Violent Storms
+[Twister Dashboard: Exploring Three Decades of Violent Storms](http://storymaps.esri.com/stories/2014/tornadoes/)
 
-Before and After the Hwy 530 Landslide
+[Before and After the Hwy 530 Landslide](http://disasterresponse.maps.arcgis.com/apps/StorytellingSwipe/index.html?appid=e455d812e5344b2f95c7c85151462c3f#map)
 
  
 
