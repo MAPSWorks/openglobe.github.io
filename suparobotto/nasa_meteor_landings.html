@@ -2,38 +2,23 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Draw GeoJSON points</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <title>NASA Meteorite Landings</title>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
 </head>
 <body>
 
-<div id='map'></div>
+<div id='map' style='width: 400px; height: 300px;'></div>
 <script>
-mapboxgl.accessToken = '<your access token here>';
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2dvcmFuc29uIiwiYSI6IkNJM1JQYkkifQ.yI-brVAu--FgYPYi50ua0g';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v9',
-    center: [-96, 37.8],
-    zoom: 3
-});
-
-map.on('load', function () {
-     map.addLayer({
-        "id": "points",
-        "type": "symbol",
-        "source": {
-            type: 'geojson',
-            url: 'https://data.nasa.gov/resource/y77d-th95.geojson'
-                }
-    });   
+    style: 'mapbox://styles/cgoranson/cj6p5xeh428zj2rnq3uowjtzr', 
+    center: [-122.420679, 37.772537],
+    zoom: 13
 });
 </script>
+
 
 </body>
 </html>
