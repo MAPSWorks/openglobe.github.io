@@ -2,7 +2,7 @@ title: OpenGlobe - Open data, open maps.
 description: A site for GIS lessons, data, and people. Even sites about maps enjoy getting lost in the wild every once in a while.
 show_downloads: true
 google_analytics:
-remote-theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 github:
   course_url: https://openglobe.github.io/open_course/intro_gis/intro_gis
