@@ -72,7 +72,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
+  # - /example # ignore Basically Basic dev site
+  - .DS_Store
 
 # Front Matter Defaults
 defaults:
